@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e4f0ef;
+    color: #333;
+}
+
+header {
+    background: #0a2540;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #0a2540, #1e90ff);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background: white;
+    color: #551111;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.project {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.project img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: rgb(36, 168, 87);
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(50, 171, 192, 0.1);
+}
+
+footer {
+    background: #97801bf3;
+    color: rgb(116, 15, 107);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
